@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A20F6FEE-0134-4D94-89B9-4D0293F31D9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyBookLibrary_Forms</RootNamespace>
+    <AssemblyName>MyBookLibrary_Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialColorUtilities, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialColorUtilities.0.3.0\lib\netstandard2.0\MaterialColorUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThemeEngineLibrary">
+      <HintPath>..\..\ThemeEngineLibrary\bin\Debug\ThemeEngineLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Authors\Form_AddUpdateAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Authors\Form_AddUpdateAuthor.Designer.cs">
+      <DependentUpon>Form_AddUpdateAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Authors\Form_ManageAuthors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Authors\Form_ManageAuthors.Designer.cs">
+      <DependentUpon>Form_ManageAuthors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Books\Form_Add_Update_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Books\Form_Add_Update_Book.Designer.cs">
+      <DependentUpon>Form_Add_Update_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Books\Form_InfoBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Books\Form_InfoBook.Designer.cs">
+      <DependentUpon>Form_InfoBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Books\Form_ManageBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Books\Form_ManageBooks.Designer.cs">
+      <DependentUpon>Form_ManageBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Form_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Form_About.Designer.cs">
+      <DependentUpon>Form_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Publishers\Form_AddUpdatePublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Publishers\Form_AddUpdatePublisher.Designer.cs">
+      <DependentUpon>Form_AddUpdatePublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Publishers\Form_Manage_publishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Publishers\Form_Manage_publishers.Designer.cs">
+      <DependentUpon>Form_Manage_publishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Records\Form_AddUpdate_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Records\Form_AddUpdate_Record.Designer.cs">
+      <DependentUpon>Form_AddUpdate_Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Records\Form_ManageRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Records\Form_ManageRecords.Designer.cs">
+      <DependentUpon>Form_ManageRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Users\cntrl_ChangeUserPassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Assets\Users\cntrl_ChangeUserPassword.Designer.cs">
+      <DependentUpon>cntrl_ChangeUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Users\Form_AddUpdate_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Users\Form_AddUpdate_User.Designer.cs">
+      <DependentUpon>Form_AddUpdate_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Users\Form_ChangeUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Users\Form_ChangeUserPassword.Designer.cs">
+      <DependentUpon>Form_ChangeUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Form_MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Form_MainMenu.Designer.cs">
+      <DependentUpon>Form_MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Users\Form_ManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Users\Form_ManageUsers.Designer.cs">
+      <DependentUpon>Form_ManageUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Assets\Authors\Form_AddUpdateAuthor.resx">
+      <DependentUpon>Form_AddUpdateAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Authors\Form_ManageAuthors.resx">
+      <DependentUpon>Form_ManageAuthors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Books\Form_Add_Update_Book.resx">
+      <DependentUpon>Form_Add_Update_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Books\Form_InfoBook.resx">
+      <DependentUpon>Form_InfoBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Books\Form_ManageBooks.resx">
+      <DependentUpon>Form_ManageBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Form_About.resx">
+      <DependentUpon>Form_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Publishers\Form_AddUpdatePublisher.resx">
+      <DependentUpon>Form_AddUpdatePublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Publishers\Form_Manage_publishers.resx">
+      <DependentUpon>Form_Manage_publishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Records\Form_AddUpdate_Record.resx">
+      <DependentUpon>Form_AddUpdate_Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Records\Form_ManageRecords.resx">
+      <DependentUpon>Form_ManageRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Users\cntrl_ChangeUserPassword.resx">
+      <DependentUpon>cntrl_ChangeUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Users\Form_AddUpdate_User.resx">
+      <DependentUpon>Form_AddUpdate_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Users\Form_ChangeUserPassword.resx">
+      <DependentUpon>Form_ChangeUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Form_MainMenu.resx">
+      <DependentUpon>Form_MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Users\Form_ManageUsers.resx">
+      <DependentUpon>Form_ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyBookLibrary_BusinessLayer\MyBookLibrary_BusinessLayer.csproj">
+      <Project>{f2bb411a-6c1d-437f-b8d2-4a3e2ebf8f54}</Project>
+      <Name>MyBookLibrary_BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_a_photo_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_photography_40dp_EADDFF_FILL0_wght400_GRAD0_opsz40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\net-framework-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sql-server-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\net_framework_service_pack_1_hosting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sql-server-logo-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyBookLibrary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_photography_80dp_EADDFF_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palette_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_accounts_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library_books_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_long_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16dp_EADDFF_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

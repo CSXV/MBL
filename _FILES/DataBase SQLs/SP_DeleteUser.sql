@@ -1,0 +1,6 @@
+CREATE PROCEDURE SP_DeleteUser
+@UserID INT
+AS BEGIN
+	DELETE FROM UsersRecords WHERE UserID = @UserID
+	DELETE FROM Users WHERE UserID = @UserID
+END

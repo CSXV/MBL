@@ -1,0 +1,8 @@
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\bin\Debug\MyBookLibrary_AccessLayer.dll
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\bin\Debug\MyBookLibrary_AccessLayer.pdb
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\bin\Debug\MaterialColorUtilities.dll
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\obj\Debug\MyBookLibrary_AccessLayer.csproj.AssemblyReference.cache
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\obj\Debug\MyBookLibrary_AccessLayer.csproj.CoreCompileInputs.cache
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\obj\Debug\MyBookLi.EDBC287C.Up2Date
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\obj\Debug\MyBookLibrary_AccessLayer.dll
+C:\MALIK DISC\M'X\Coding\DotNet\My Projects\MyBookLibrary\MyBookLibrary_AccessLayer\obj\Debug\MyBookLibrary_AccessLayer.pdb
