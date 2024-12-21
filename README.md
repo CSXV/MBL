@@ -1,6 +1,7 @@
 # My Book Library
 
 ![Screenshot](Pics/screenshot.gif)
+
 More screenshots in `Pics` folder.
 
 A .NET Framework desktop application, used to track and manage user's own books.
