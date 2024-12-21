@@ -4,7 +4,7 @@
 More screenshots in `Pics` folder.
 
 A .NET Framework desktop application, used to track and manage user's own books.
-Applied my own theme engine library to change forms colors.
+Applied my own theme engine library to change forms colors. you can learn more about it [here](https://github.com/CSXV/ThemeEngineLibrary)
 
 ---
 ## How to use
@@ -15,6 +15,7 @@ Applied my own theme engine library to change forms colors.
 5. Restore `MyBookLibrary.bak` database under `_FILES` folder in MSSQL server.
 4. Run the form.
 5. Use `Admin` as the user name, and `1234` as the password.
+6. You can change theme color in settings.
 
 ---
 ## Technologies
