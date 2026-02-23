@@ -2,6 +2,8 @@
 
 ![Screenshot](Pics/screenshot.gif)
 
+![Database ERD](Pics/Database_diagram.svg)
+
 More screenshots in `Pics` folder.
 
 A .NET Framework desktop application, used to track and manage user's own books.
